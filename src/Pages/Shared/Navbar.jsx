@@ -36,22 +36,22 @@ const Navbar = () => {
         >
           <ul className="flex md:flex-row flex-col md:items-center md:gap-[3vh] gap-3">
             <li>
-              <a className="text-gray-800 hover:text-red-700 font-semibold nav-link text-xl" href="#">
+              <a className="text-gray-800 hover:text-red-700 font-semibold nav-link text-lg" href="#">
                 Home
               </a>
             </li>
             <li>
-              <a className="hover:text-gray-800 hover:text-red-700 font-semibold nav-link text-xl" href="#">
+              <a className=" hover:text-red-700 font-semibold nav-link text-lg" href="#">
                 About Us
               </a>
             </li>
             <li>
-              <a className="hover:text-gray-800 hover:text-red-700 font-semibold nav-link text-xl" href="#">
+              <a className=" hover:text-red-700 font-semibold nav-link text-lg" href="#">
                 Our Project
               </a>
             </li>
             <li>
-              <a className="hover:text-gray-800 hover:text-red-700 font-semibold nav-link text-xl" href="#">
+              <a className=" hover:text-red-700 font-semibold nav-link text-lg" href="#">
                 Contact Us
               </a>
             </li>          

@@ -24,7 +24,7 @@ const Welcome = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-6">
+                    <div className="p-6 sm:mt-20 md:mt-0">
                         <h1 className="text-4xl font-bold mb-4">Welcome To <span className='text-red-700'>Leading Wooden Homes Industry</span></h1>
                         <p className="mb-4">
                             Canadian craft founded by Mr. Kuljeet Kali in the year 2016. Since our establishment, our goal has been to provide our customers with quality services & premium quality eco-friendly wooden homes that are at par with the best in the world.
