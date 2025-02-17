@@ -1,0 +1,44 @@
+@fortawesome/fontawesome-free/css/all.min.css;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-family: swiper-icons;
+    font-size: 24px !important;
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+    color: white;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+.swiper-pagination-bullet {
+    background-color: rgb(250, 250, 250) !important; 
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: red !important; 
+  }
+
+  .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+    opacity: 0.5;
+  }
+  
+  .swiper-pagination-bullet-active {
+    width: 15px !important; 
+    height: 15px !important;
+    background-color: rgb(255, 0, 0);
+    opacity: 1;
+    border: 2px solid white;
+  }
+  
+  
+  
