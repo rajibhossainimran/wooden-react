@@ -9,19 +9,18 @@ const Navbar = () => {
   return (
     <header className="bg-white py-3 md:fixed z-40 top-0 w-full">
       <nav className="flex justify-between items-end w-[89%] mx-auto py-2 z-40">
-        {/* Logo */}
+        
         <div>
          <img src={logo} alt="logo" className="w-[150px]"/>
         </div>
 
-        {/* Navigation Links */}
+        
         
 
-        {/* Menu Toggle & Button */}
+    
         <div className="flex items-center gap-6">
           
 
-          {/* Mobile Menu Toggle */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="text-3xl cursor-pointer md:hidden"
