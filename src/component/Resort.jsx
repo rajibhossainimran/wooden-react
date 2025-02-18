@@ -15,12 +15,12 @@ const destinations = [
 const Resort = () => {
   return (
     <div className="bg-gradient-to-b from-white to-blue-100 py-20">
-      {/* Title */}
+  
       <h2 className="text-4xl font-bold text-center">
         Timber <span className="text-red-500">House Resorts</span>
       </h2>
 
-      {/* Image Grid */}
+      
       <div className="flex justify-center items-center gap-6 mt-8 flex-wrap">
         {destinations.map((place) => (
           <div key={place.id} className="text-center">

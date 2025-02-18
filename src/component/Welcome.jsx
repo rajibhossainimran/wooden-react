@@ -14,7 +14,7 @@ const Welcome = () => {
                                     alt="Wooden House"
                                     className="w-full h-full object-cover"
                                 /></div>
-                            {/* rounded image  */}
+                          
                             <div className='absolute bottom-[-40px] right-0'>
                             <img
                                     src={house2}
